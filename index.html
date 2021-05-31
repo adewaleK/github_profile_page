@@ -7,9 +7,10 @@
     <title>Document</title>
     <link rel="stylesheet" href="styles/form-styles.css">
     <link rel="stylesheet" href="styles/profile-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <section class="input-section">
+    <section class="input-section" style="display: none;">
         <div class="logo">
             <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="logo" >
             <h1>Sign in to GitHub</h1>
@@ -27,7 +28,37 @@
         </div>
     </section>  
     <section class="profile-section">
-        <header>this is the header</header>
+        <header>
+            <div class="mobile-menu">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+                <div class="menu-logo">
+                    <a href="#"><img src="https://img.stackshare.io/service/2900/pBeeJQDQ.png" alt="logo"></a>
+                </div>
+                <div class="notifications"><a href="#"><img src="https://i.ibb.co/h7zSyBW/ntf.png" alt="notifications"></a></div>
+            </div>
+            <div class="mobile-dropdown">
+                <div class="search">
+                    <input type="text" placeholder="Search Github">
+                </div>
+                <ul>
+                    <li>Dashboard</li>
+                    <li>Pull requests</li>
+                    <li>Issues</li>
+                    <li>Marketplace</li>
+                    <li>Explore</li>
+                    <li>Codespaces</li>
+                    <li>Sponsors</li>
+                    <li>Settings</li>
+                </ul>
+                <div class="dd-item">Profile</div>
+                <div class="dd-item sign-out"><i class="fa fa-sign-out" aria-hidden="true"></i>Sign out</div>
+
+            </div>
+        </header>
+        <section class="profile-data">
+            
+
+        </section>
     </section>
 </body>
 </html>

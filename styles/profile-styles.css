@@ -1,0 +1,82 @@
+.profile-section{
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;
+}
+
+.mobile-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 5%;
+    height: 50px;
+    background-color: #24292e;
+    color: #fff;
+    overflow-x: hidden;
+}
+
+.mobile-menu i{
+    font-size: 32px;
+}
+
+.menu-logo img{
+    width: 40px;
+    border-radius: 50%;
+}
+
+.notifications img{
+    width: 60px;
+}
+
+.mobile-dropdown{
+    width: 100%;
+    background-color: #24292e;
+    display: none;
+}
+
+.search{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.search input{
+    background-color: transparent;
+    width: 100%;
+    outline: none;
+    padding: 2.5% 1%;
+    border-radius: 7px;
+    border: 1px solid rgb(94, 91, 91);
+    color: #fff
+}
+
+::placeholder {
+    color: rgb(197, 184, 184);
+}
+
+.mobile-dropdown ul{
+    list-style: none;
+    margin-left: -5%;
+} 
+
+.mobile-dropdown li{
+    color: #fff;
+    padding: 8px 0;
+    border-bottom: 1px solid rgb(94, 89, 89);
+    width: 97%;   
+} 
+
+.dd-item{
+    color: #fff;
+    margin-top: -1%;
+    padding-bottom: 2%;
+    border-bottom: 1px solid rgb(94, 89, 89);
+    width: 93%;
+    margin-left: 4.5%;
+}
+
+.sign-out{
+    padding-top: 2%;
+    padding-bottom: 5%;
+}
+
+.sign-out i{
+    margin-right: 1%;
+}
